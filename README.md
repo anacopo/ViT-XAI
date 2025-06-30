@@ -1,6 +1,6 @@
 # Seeing with Consensus: Explainability in Vision Transformers through Hybrid Visualization Techniques
 
-This repository presents a modular and extensible methods for visualizing and evaluating explainability techniques in Vision Transformers (ViTs). We explore how combining multiple attribution techniques—such as Layer-wise Relevance Propagation (LRP), Class Activation Mapping (CAM), Saliency Maps, and Attention Rollout—can lead to more robust and informative explanations.
+This repository presents modular and extensible methods for visualizing and evaluating explainability techniques in Vision Transformers (ViTs). We explore how combining multiple attribution techniques—such as Layer-wise Relevance Propagation (LRP), Class Activation Mapping (CAM), Saliency Maps, and Attention Rollout—can lead to more robust and informative explanations.
 
 We propose and test two fusion strategies (geometric mean and multiplication) across three diverse datasets: **PH2** (medical imaging), **PascalVOC**, and a subset of **ImageNet**. Our experiments demonstrate that hybrid methods often outperform individual techniques, enhancing the clarity, stability, and reliability of the model's visual explanations.
 
@@ -11,7 +11,7 @@ Heatmaps on PH2 dataset
   <img width="400" height="400" src="https://github.com/anacopo/ViT-XAI/blob/main/images/medical_heatmaps.jpg">
 </p>
 
-Segmentation masks on some random images
+Segmentation masks on some random PascalVOC images
 <p align="center">
   <img width="400" height="400" src="https://github.com/anacopo/ViT-XAI/blob/main/images/main_figure.png">
 </p>
